@@ -1,11 +1,11 @@
 import React from 'react';
 
 
-function Questions() {
+function Questions({question}) {
     return (
         <div>
             <h3 className="card-title"> 
-                Questions will be shown here
+                {question}
             </h3>
         </div>
     )
